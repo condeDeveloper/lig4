@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Conde.Lig4</RootNamespace>
+    <AssemblyName>Conde.Lig4</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Description>Lig 4 resolvido em tabuleiros pequenos, em F#: motor de bitboard com memoria, juiz de grade ingenua e a simetria do espelho</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Nucleo.fs" />
+    <Compile Include="Juiz.fs" />
+    <Compile Include="Medidas.fs" />
+  </ItemGroup>
+</Project>
